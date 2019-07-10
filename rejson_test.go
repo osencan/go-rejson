@@ -2,7 +2,7 @@ package rejson
 
 import (
 	"encoding/json"
-	"github.com/nitishm/go-rejson/rjs"
+	"github.com/osencan/go-rejson/rjs"
 	"reflect"
 	"testing"
 

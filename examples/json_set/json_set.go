@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 
-	goredis "github.com/go-redis/redis"
 	"github.com/gomodule/redigo/redis"
-	"github.com/nitishm/go-rejson"
+	"github.com/osencan/go-rejson"
+	goredis "github.com/osencan/redis"
 )
 
 // Name - student name

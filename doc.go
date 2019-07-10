@@ -26,8 +26,8 @@ Installation
 
 
 To install and use ReJSON module, one must have the pre-requisites installed and setup. Follow the following steps :
-	go get github.com/nitishm/go-rejson
-	cd $GOPATH/src/github.com/nitishm/go-rejson
+	go get github.com/osencan/go-rejson
+	cd $GOPATH/src/github.com/osencan/go-rejson
 	./install-redis-rejson.sh
 
 
