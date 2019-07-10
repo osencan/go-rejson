@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	goredis "github.com/go-redis/redis"
 	redigo "github.com/gomodule/redigo/redis"
+	goredis "github.com/osencan//redis"
 )
 
 func TestUnsupportedCommand(t *testing.T) {

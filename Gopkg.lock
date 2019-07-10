@@ -3,7 +3,7 @@
 
 [[projects]]
   digest = "1:ad53d1f710522a38d1f0e5e0a55a194b1c6b2cd8e84313568e43523271f0cf62"
-  name = "github.com/go-redis/redis"
+  name = "github.com/osencan//redis"
   packages = [
     ".",
     "internal",
@@ -32,7 +32,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/go-redis/redis",
+    "github.com/osencan//redis",
     "github.com/gomodule/redigo/redis",
   ]
   solver-name = "gps-cdcl"

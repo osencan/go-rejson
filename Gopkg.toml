@@ -26,7 +26,7 @@
 
 
 [[constraint]]
-  name = "github.com/go-redis/redis"
+  name = "github.com/osencan//redis"
   version = "6.15.1"
 
 [[constraint]]

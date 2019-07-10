@@ -8,8 +8,8 @@ import (
 	"github.com/osencan/go-rejson/rjs"
 	"log"
 
-	goredis "github.com/go-redis/redis"
 	"github.com/gomodule/redigo/redis"
+	goredis "github.com/osencan//redis"
 )
 
 func Example_JSONObj(rh *rejson.Handler) {
