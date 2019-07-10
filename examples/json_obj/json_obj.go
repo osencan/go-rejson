@@ -9,7 +9,7 @@ import (
 	"log"
 
 	"github.com/gomodule/redigo/redis"
-	goredis "github.com/osencan//redis"
+	goredis "github.com/osencan/redis"
 )
 
 func Example_JSONObj(rh *rejson.Handler) {

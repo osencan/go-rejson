@@ -8,9 +8,9 @@ import (
 )
 
 // GoRedis implements ReJSON interface for Go-Redis/Redis Redis client
-// Link: https://github.com/osencan//redis
+// Link: https://github.com/osencan/redis
 type GoRedis struct {
-	Conn *goredis.Client // import goredis "github.com/osencan//redis"
+	Conn *goredis.Client // import goredis "github.com/osencan/redis"
 }
 
 // JSONSet used to set a json object

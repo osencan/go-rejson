@@ -28,7 +28,7 @@ func (r *Handler) SetRedigoClient(conn redigo.Conn) {
 	r.implementation = &clients.Redigo{Conn: conn}
 }
 
-// SetGoRedisClient sets Go-Redis (https://github.com/osencan//redis) client to
+// SetGoRedisClient sets Go-Redis (https://github.com/osencan/redis) client to
 // the handler
 func (r *Handler) SetGoRedisClient(conn *goredis.Client) {
 	r.clientName = "goredis"

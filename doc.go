@@ -15,7 +15,7 @@ Go-ReJSON is a Go client for ReJSON redis module (https://github.com/RedisLabsMo
 
 Go-ReJSON implements all the features of ReJSON Module, without any dependency on the client used for Redis in GoLang.
 
-Enjoy ReJSON with the type-safe Redis client, Go-Redis/Redis (https://github.com/osencan//redis) or use the print-like
+Enjoy ReJSON with the type-safe Redis client, Go-Redis/Redis (https://github.com/osencan/redis) or use the print-like
 Redis-api client GoModule/Redigo (https://github.com/gomodule/redigo/redis).
 
 Go-ReJSON supports both the clients. Use any of the above two client you want, Go-ReJSON helps you out with all its
