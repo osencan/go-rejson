@@ -93,11 +93,11 @@ func (r *Handler) JSONGet(key, path string, opts ...rjs.GetOption) (res interfac
 // ReJSON syntax:
 // 	JSON.MGET <key> [key ...] <path>
 //
-func (r *Handler) JSONMGet(path string, keys []string) (res interface{}, err error) {
+func (r *Handler) JSONMGet(path string, keys *[]string) (res interface{}, err error) {
 	if r.clientName == rjs.ClientInactive {
 		return nil, rjs.ErrNoClientSet
 	}
-	return r.implementation.JSONMGet(path, keys...)
+	return r.implementation.JSONMGet(path, *keys...)
 }
 
 // JSONDel to delete a json object
