@@ -26,6 +26,9 @@ Support for `mediocregopher/radix` and other Redis clients is in our RoadMap. An
 ## Installation
 	go get github.com/osencan/go-rejson
 
+## Changes
+   * `JSONMGET` command now gets keys as string array in input parameters
+   
 ## Example usage
 ```golang
 package main
